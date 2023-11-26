@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "02qwew5qe4qw5eqw1qw2e",
+      "date": "2023-09-11T20:00:15.98Z",
+      "title": "React ile proje",
+      "text": "Proje nasıl geliştirilir",
+      "user": "Ali"
+    },
+    {
+      "id": "02qwew5qe4qw5eqw1qw2f",
+      "date": "2023-09-12T10:30:45.67Z",
+      "title": "Web Geliştirme Temelleri",
+      "text": "HTML, CSS ve JavaScript öğreniyoruz",
+      "user": "Mehmet"
+    },
+    {
+      "id": "02qwew5qe4qw5eqw1qw2g",
+      "date": "2023-09-13T14:20:55.33Z",
+      "title": "Python Programlama",
+      "text": "Temel Python konuları üzerine bir derleme",
+      "user": "Ayşe"
+    },
+    {
+      "id": "4792ce9c-d31d-461e-9998-0df8685b1591",
+      "date": "2023-11-26T12:39:03.638Z",
+      "user": "Ali",
+      "title": "HTML ve CSS",
+      "text": "Web geliştirme temelleri"
+    }
+  ]
+}

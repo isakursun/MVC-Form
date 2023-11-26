@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    &:hover {
+      text-shadow: 2px 2px 20px gold;
+    }
+  }
+
+  .active {
+    display: none;
+  }
+}
+
+.container {
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.post {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+  border-radius: 10px;
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: gold;
+      cursor: pointer;
+    }
+  }
+}
+
+form {
+  background-color: black;
+  color: white;
+  width: 70vw;
+  margin: 100px auto;
+  padding: 50px 20px;
+  border-radius: 10px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h2{
+    text-align: center;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+
+    input {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 100px;
+      max-height: 200px;
+      resize: vertical;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+
+  button{
+    background-color: gold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: all .4s;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    &:hover{
+        scale:0.9
+    }
+  }
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.37);
+    display: grid;
+    place-items: center;
+
+    .popup{
+        background-color: white;
+        height: 80%;
+        width: 70%;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .btn-wrap{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span{
+                color: gold;
+            }
+
+            button{
+                background-color: orangered;
+                border: none;
+                outline: none;
+                padding: 10px 20px;
+                border-radius: 10px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
